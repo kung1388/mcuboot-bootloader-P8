@@ -32,8 +32,11 @@
 #include <hal/hal_watchdog.h>
 #include "pinetime_boot/version.h"
 
-#define PUSH_BUTTON_IN  17  //  GPIO Pin P0.13: PUSH BUTTON_IN
-#define PUSH_BUTTON_OUT -1  //  GPIO Pin P0.15/TRACEDATA2: PUSH BUTTON_OUT
+// #define PUSH_BUTTON_IN  13  //  GPIO Pin P0.13: PUSH BUTTON_IN
+// #define PUSH_BUTTON_OUT 15  //  GPIO Pin P0.15/TRACEDATA2: PUSH BUTTON_OUT
+// P8 pins
+#define PUSH_BUTTON_IN  17  //  GPIO Pin P0.17: PUSH BUTTON_IN
+#define PUSH_BUTTON_OUT -1  //  GPIO Pin P0.-1/TRACEDATA2: PUSH BUTTON_OUT
 
 /// Vector Table will be relocated here.
 #define RELOCATED_VECTOR_TABLE 0x7F00
