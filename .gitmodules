@@ -1,3 +1,3 @@
-[submodule "reloader-P8"]
+[submodule "reloader"]
 	path = reloader
 	url = git@github.com:kung1388/reloader-P8.git
